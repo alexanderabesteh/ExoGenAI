@@ -1,1 +1,1 @@
-# ExoGenAI
+# ExoGenAI - Frontend
