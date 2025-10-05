@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Reusable hover affordance */
+.hover-affordance {
+  transition: background-color 0.15s ease, cursor 0.15s ease;
+}
+.hover-affordance:hover {
+  cursor: pointer;
+  background-color: #CCCCCC;
+}
