@@ -1,9 +1,9 @@
 # Introduction
-ExoGen AI is a full-stack platform that combines physics-based validation with deep learning to analyze stellar light curves from NASA missions (Kepler, TESS) and identify potential exoplanets.
+ExoGen AI is a full-stack platform that combines physics-based validation with deep learning to analyze stellar light curves from NASA's Kepler mission and identify potential exoplanets.
 
 The system integrates a FastAPI backend for model inference and training with a Next.js frontend for data upload, visualization, and result interaction.
 
-# ExoGenAI Backend Setup
+# ExoGen AI Backend Setup
 
 ## Quick Start
 
@@ -72,7 +72,7 @@ The system integrates a FastAPI backend for model inference and training with a 
 
 ***
 
-# ExoGenAI Frontend Setup
+# ExoGen AI Frontend Setup
 
 ## Quick Start
 1. **Navigate to the frontend directory**
@@ -95,7 +95,7 @@ The system integrates a FastAPI backend for model inference and training with a 
     [http://localhost:3000](http://localhost:3000)
 5. **Upload a CSV file and view results**
 
-# ExoGenAI Full Stack
+# ExoGen AI Full Stack
 
 ## Quick Start
 Ensure both backend and frontend are set up as per the instructions above.
