@@ -1,4 +1,4 @@
-# Introdudction
+# Introduction
 ExoGen AI is a full-stack platform that combines physics-based validation with deep learning to analyze stellar light curves from NASA missions (Kepler, TESS) and identify potential exoplanets.
 
 The system integrates a FastAPI backend for model inference and training with a Next.js frontend for data upload, visualization, and result interaction.
@@ -96,17 +96,19 @@ The system integrates a FastAPI backend for model inference and training with a 
 5. **Upload a CSV file and view results**
 
 # ExoGenAI Full Stack
+
+## Quick Start
+Ensure both backend and frontend are set up as per the instructions above.
+
 1. **Start the backend server**
     ```bash
     cd ../backend
-    uvicorn api:app --host
+    uvicorn api:app --host 0.0.0.0 --port 8000
     ```
 2. In a new terminal, **start the frontend server**
     ```bash
     cd ../frontend
     npm run dev
-    ``` --port 8000
-    ```
 3. **Open your browser and navigate to**
     [http://localhost:3000](http://localhost:3000)
 4. **Upload a CSV file and view results**
