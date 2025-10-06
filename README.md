@@ -27,7 +27,7 @@ The system integrates a FastAPI backend for model inference and training with a 
      ```
      backend/checkpoints/best_model.pt
      ```
-   - ** dataset**:  
+   - **Dataset**:  
      Download from https://drive.google.com/drive/folders/1O8w9Ls2u_D0gkZ8Trnpj9tayAbRcH3Gc?usp=sharing.(labelled time-series data)
      Place these files:
      ```
